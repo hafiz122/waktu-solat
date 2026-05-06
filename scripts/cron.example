@@ -1,0 +1,11 @@
+# Example cron configuration for daily site refresh.
+# Install with: crontab -e
+#
+# Exit-code alerting:
+# - Keep MAILTO set so cron emails stdout/stderr when something fails.
+# - All script output is appended to a log file for auditing.
+
+MAILTO=ops@example.com
+
+# Run every day at 01:15 server local time.
+15 1 * * * /bin/bash /opt/waktu-solat/scripts/refresh_site.sh --repo-dir /opt/waktu-solat --branch main --min-days-ahead 7 >> /var/log/waktu-solat-refresh.log 2>&1
