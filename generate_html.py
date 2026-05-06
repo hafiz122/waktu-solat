@@ -27,14 +27,14 @@ GA_CODE = """<!-- Google tag (gtag.js) -->
 </script>"""
 
 # Unsplash mosque images
-HERO_IMAGE = "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1920&q=80"
+HERO_IMAGE = "https://upload.wikimedia.org/wikipedia/commons/5/56/Putra_Mosque_being_reflected_in_the_lake_%28cropped%29.jpg"
 GALLERY_IMAGES = [
-    {"url": "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Putra, Putrajaya", "caption_en": "Putra Mosque, Putrajaya", "caption_zh": "布特拉清真寺, 布城", "caption_ta": "புத்ரா மசூதி, புத்ராஜாயா", "caption_ar": "مسجد بترا، بوتراجايا"},
-    {"url": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Sultan Salahuddin Abdul Aziz Shah", "caption_en": "Sultan Salahuddin Abdul Aziz Mosque", "caption_zh": "苏丹 Salahuddin Abdul Aziz 清真寺", "caption_ta": "சுல்தான் சலாஹுதீன் அப்துல் அஜீஸ் மசூதி", "caption_ar": "مسجد السلطان صلاح الدين عبد العزيز"},
-    {"url": "https://images.unsplash.com/photo-1609520778163-a16fb3862586?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Kristal, Kuala Terengganu", "caption_en": "Crystal Mosque, Kuala Terengganu", "caption_zh": "水晶清真寺, 瓜拉登嘉楼", "caption_ta": "கிரிஸ்டல் மசூதி, கோலா தெரெங்கானு", "caption_ar": "مسجد الكريستال، كوالا ترغانو"},
-    {"url": "https://images.unsplash.com/photo-1585128903994-9788298932a6?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Negara, Kuala Lumpur", "caption_en": "National Mosque, Kuala Lumpur", "caption_zh": "国家清真寺, 吉隆坡", "caption_ta": "தேசிய மசூதி, கோலாலம்பூர்", "caption_ar": "المسجد الوطني، كوالالمبور"},
-    {"url": "https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Ubudiah, Perak", "caption_en": "Ubudiah Mosque, Perak", "caption_zh": "乌布迪亚清真寺, 霹雳", "caption_ta": "உபுதியா மசூதி, பேராக்", "caption_ar": "مسجد أبودياه، بيراك"},
-    {"url": "https://images.unsplash.com/photo-1590073242678-cfea53382e86?auto=format&fit=crop&w=600&q=80", "caption_ms": "Masjid Al-Bukhary, Kedah", "caption_en": "Al-Bukhary Mosque, Kedah", "caption_zh": "阿尔-布哈里清真寺, 吉打", "caption_ta": "அல்-புகாரி மசூதி, கெடா", "caption_ar": "مسجد البخاري، كيداه"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Putra_Mosque_being_reflected_in_the_lake_%28cropped%29.jpg", "caption_ms": "Masjid Putra, Putrajaya", "caption_en": "Putra Mosque, Putrajaya", "caption_zh": "布特拉清真寺, 布城", "caption_ta": "புத்ரா மசூதி, புத்ராஜாயா", "caption_ar": "مسجد بترا، بوتراجايا"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SA_Blue_Mosque.jpg", "caption_ms": "Masjid Sultan Salahuddin Abdul Aziz Shah", "caption_en": "Sultan Salahuddin Abdul Aziz Mosque", "caption_zh": "苏丹 Salahuddin Abdul Aziz 清真寺", "caption_ta": "சுல்தான் சலாஹுதீன் அப்துல் அஜீஸ் மசூதி", "caption_ar": "مسجد السلطان صلاح الدين عبد العزيز"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Cristal_Mosque_in_Kuala_Terengganu.jpg", "caption_ms": "Masjid Kristal, Kuala Terengganu", "caption_en": "Crystal Mosque, Kuala Terengganu", "caption_zh": "水晶清真寺, 瓜拉登嘉楼", "caption_ta": "கிரிஸ்டல் மசூதி, கோலா தெரெங்கானு", "caption_ar": "مسجد الكريستال، كوالا ترغانو"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Masjid_Negara_Malaysia_20250822.jpg/3840px-Masjid_Negara_Malaysia_20250822.jpg", "caption_ms": "Masjid Negara, Kuala Lumpur", "caption_en": "National Mosque, Kuala Lumpur", "caption_zh": "国家清真寺, 吉隆坡", "caption_ta": "தேசிய மசூதி, கோலாலம்பூர்", "caption_ar": "المسجد الوطني، كوالالمبور"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ubudiah_Mosque%2C_circa_2023.jpg", "caption_ms": "Masjid Ubudiah, Perak", "caption_en": "Ubudiah Mosque, Perak", "caption_zh": "乌布迪亚清真寺, 霹雳", "caption_ta": "உபுதியா மசூதி, பேராக்", "caption_ar": "مسجد أبودياه، بيراك"},
+    {"url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Albukhary.png", "caption_ms": "Masjid Al-Bukhary, Kedah", "caption_en": "Al-Bukhary Mosque, Kedah", "caption_zh": "阿尔-布哈里清真寺, 吉打", "caption_ta": "அல்-புகாரி மசூதி, கெடா", "caption_ar": "مسجد البخاري، كيداه"},
 ]
 
 def get_translations(lang):
@@ -310,7 +310,7 @@ def generate_html(lang, zone_code=None, is_home=True):
 </script>
 {(f'<script type="application/ld+json">\\n{prayer_schema}\\n</script>' if prayer_schema else '')}
 
-<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://upload.wikimedia.org">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="stylesheet" href="{css_path}">
 <style>
